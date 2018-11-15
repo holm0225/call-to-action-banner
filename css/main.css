@@ -2,8 +2,42 @@ html {
   box-sizing: border-box;
   font-size: 100%;
   line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  max-height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-content {
+  width: 100%;
+  max-width: 45em;
+  position: absolute;
+  display: flex;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+  border-radius: 8px;
+  border-width: 3px;
+  padding: .5em .9em;
+  display: inline-block;
 }
